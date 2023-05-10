@@ -8,7 +8,7 @@ export default function Sidebar() {
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+                            <button type="button" className="close bg-white" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">
                                     <i className="bx bx-x"></i>
                                 </span>
@@ -37,7 +37,9 @@ export default function Sidebar() {
                                     <i className="flaticon-paper-plane"></i>
                                     Email
                                     <span>
-                                    <a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="3f565159507f5d50514c5e115c5052">[email protected]</a>
+                                    <a className="" href="mailto:sales@mtchaldia.com" target="_blank" rel="noreferrer">sales@mtchaldia.com</a>,
+                                    <a className="" href="mailto:suraj.g@mtchaldia.com" target="_blank" rel="noreferrer">suraj.g@mtchaldia.com</a>
+                                    {/* <a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="3f565159507f5d50514c5e115c5052">[email protected]</a> */}
                                     </span>
                                 </li>
                                 <li>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Touch() {
   return (
     <>
-        <div className="submission-area ptb-100">
+        <div className="submission-area ptb-100" id="contact">
             <div className="container">
                 <div className="submission-title">
                     <h2>Get in touch with us</h2>

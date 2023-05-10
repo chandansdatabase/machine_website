@@ -3,20 +3,19 @@ import React from 'react'
 export default function Banner() {
   return (
     <>
-        <div className="banner-another">
+        <div className="banner-another" id="home">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text banner-ptb">
-                            <span>Industrial Equipment</span>
-                            <h1 className="head-width">We Grow Your Business Reach to Next Level</h1>
+                            <span>MADAN TRADING COMPANY</span>
+                            <h1 className="head-width">Expert in IAQ management, Gas monitoring and molecular filtration. </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsu msuspendisse ultrices gravida.
+                                Madan Trading company is an authorised distributor of Purafil Inc. with head office based in Haldia, west Bengal and branch offices currently at Kolkata and Delhi.
                             </p>
                             <div className="banner-btn">
                                 <a href="#contact" className="default-btn">Contact Us</a>
-                                <a href="#" className="default-btn active">Know More</a>
+                                <a href="#about" className="default-btn active">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +53,7 @@ export default function Banner() {
                 <div className="home-shape3">
                     <img src="images/3_2.png" alt="shape"/>
                 </div>
-                <div className="home-shape4"> 
+                <div className="home-shape4">
                     <img src="images/4_2.png" alt="shape"/>
                 </div>
                 <div className="home-shape5">

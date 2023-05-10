@@ -20,41 +20,46 @@ export default function Navbar() {
                         <a className="navbar-brand-sticky" href="#">
                             <img src="images/sticky-logo.png" alt="Logo"/>
                         </a>
-                        <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul className="navbar-nav m-auto">
+                        <div className="collapse navbar-collapse mean-menu d-flex justify-content-end" id="navbarSupportedContent">
+                            <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <a href="#home" className="nav-link">
                                     Home
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
-                                    About
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <a href="#services" className="nav-link">
                                     Services
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <a href="#about" className="nav-link">
+                                    About
+                                    </a>
+                                </li>
+                                {/* <li className="nav-item">
+                                    <a href="#testimonial" className="nav-link">
                                     Testimonial
+                                    </a>
+                                </li> */}
+                                <li className="nav-item">
+                                    <a href="#clients" className="nav-link">
+                                    Clients
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <a href="#contact" className="nav-link">
                                     Contact
                                     </a>
                                 </li>
                             </ul>
-                            <div className="other-side">
+                            {/* <div className="other-side">
                                 <div className="modal-menu">
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#myModal2">
                                         <i className="flaticon-menu"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </nav>
                 </div>

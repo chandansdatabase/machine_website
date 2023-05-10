@@ -1486,7 +1486,7 @@
     max-width: 630px;
   }
   .banner-text h1 {
-    font-size: 63px;
+    /* font-size: 63px; */
   }
   .banner-text p {
     max-width: 600px;
@@ -1516,7 +1516,7 @@
     max-width: 690px;
   }
   .banner-text h1 {
-    font-size: 63px;
+    /* font-size: 63px; */
   }
   .banner-content h1 {
     font-size: 65px;

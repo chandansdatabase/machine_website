@@ -1,10 +1,23 @@
-import React from 'react'
+/* eslint-disable @next/next/no-sync-scripts */
+import { useState} from 'react'
 
 export default function Footer() {
+    const [redHeart, changeOfHeart] = useState(false)
   return (
     <>
+    {/* <script src="/js/jquery.min.js"></script> */}
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    {/* <script src="/js/contact-form-script.js"></script> */}
+    {/* <script src="/js/custom.js"></script> */}
+    {/* <script src="/js/email-decode.min.js"></script> */}
+    {/* <script src="/js/form-validator.min.js"></script> */}
+    {/* <script src="/js/jquery.ajaxchimp.min.js"></script> */}
+    {/* <script src="/js/jquery.magnific-popup.min.js"></script> */}
+    {/* <script src="/js/meanmenu.min.js"></script> */}
+    {/* <script src="/js/owl.carousel.min.js"></script> */}
+    {/* <script src="/js/wow.min.js"></script> */}
         <footer id="footer" className="footer-area-bg">
-            <div className="footer-area-top pt-100 pb-70">
+            {/* <div className="footer-area-top pt-100 pb-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
@@ -117,15 +130,17 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="footer-bottom">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-12">
                             <div className="bottom-text text-center">
                                 <p>
-                                    Copyright @<script>document.write(new Date().getFullYear())</script>2022 MTC Haldia. Made with <span className="text-danger">&#x1F5A4;</span> by&nbsp;
-                                    <a href="https://www.justaquib.com/" target="_blank">JustAquib</a>
+                                    Copyright @{new Date().getFullYear()} MTC Haldia. Made with&nbsp;
+                                    <span className="" style={{cursor:'pointer'}} onMouseOver={()=>changeOfHeart(true)} onMouseLeave={()=>changeOfHeart(false)}>{redHeart?<>❤️</>:<>🤍</>}</span>
+                                    &nbsp;by&nbsp;
+                                    <a className='text-white' href="https://www.justaquib.com/" target="_blank" rel="noreferrer">JustAquib</a>
                                 </p>
                             </div>
                         </div>

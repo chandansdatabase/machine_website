@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <>
-      <title>Electronic App</title>
+      <title>HTC Haldia | Electric Equipment</title>
       <meta name="description" content="App for electronics devices" />
       <link rel="icon" href="/favicon.ico" />
       <meta charSet="UTF-8"/>
