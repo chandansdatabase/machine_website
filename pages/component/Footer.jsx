@@ -137,10 +137,11 @@ export default function Footer() {
                         <div className="col-lg-12">
                             <div className="bottom-text text-center">
                                 <p>
-                                    Copyright @{new Date().getFullYear()} MTC Haldia. Made with&nbsp;
+                                    Copyright @{new Date().getFullYear()} MTC Haldia.
+                                     {/* Made with&nbsp;
                                     <span className="" style={{cursor:'pointer'}} onMouseOver={()=>changeOfHeart(true)} onMouseLeave={()=>changeOfHeart(false)}>{redHeart?<>❤️</>:<>🤍</>}</span>
                                     &nbsp;by&nbsp;
-                                    <a className='text-white' href="https://www.justaquib.com/" target="_blank" rel="noreferrer">JustAquib</a>
+                                    <a className='text-white' href="https://www.justaquib.com/" target="_blank" rel="noreferrer">JustAquib</a> */}
                                 </p>
                             </div>
                         </div>

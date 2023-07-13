@@ -13,7 +13,7 @@ export default function Contact() {
                                 <p style={{ paddingTop: 0 }}>
                                     Madan Trading Company
                                     <br />
-                                    E Block, Durgachak Haldia 721602
+                                    E Block, Durgachak Haldia-721602
                                 </p>
                             </div>
                             <div className='col-md-4'>
