@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Services() {
   return (
     <>
@@ -17,7 +17,7 @@ export default function Services() {
                     {/* <div className="col-lg-4 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/1_1.png" alt="Images"/>
+                                <img src="/images/1_1.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>Tools Optimization</h3>
@@ -30,7 +30,7 @@ export default function Services() {
                     <div className="col-lg-4 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/2_1.png" alt="Images"/>
+                                <img src="/images/2_1.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>Best Results</h3>
@@ -45,7 +45,7 @@ export default function Services() {
                     <div className="col-lg-6 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/3_1.png" alt="Images"/>
+                                <img src="/images/3_1.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>High Markete Value</h3>
@@ -58,7 +58,7 @@ export default function Services() {
                     <div className="col-lg-6 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/4_1.png" alt="Images"/>
+                                <img src="/images/4_1.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>Always in Stock</h3>
@@ -71,7 +71,7 @@ export default function Services() {
                     <div className="col-lg-6 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/5.png" alt="Images"/>
+                                <img src="/images/5.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>On The Go Service</h3>
@@ -84,7 +84,7 @@ export default function Services() {
                     <div className="col-lg-6 col-sm-6">
                         <div className="service-card">
                             <a href="#service-details">
-                                <img src="images/6.png" alt="Images"/>
+                                <img src="/images/6.png" alt="Images"/>
                             </a>
                             <a href="#service-details">
                                 <h3>Doorstep Service</h3>
@@ -97,7 +97,7 @@ export default function Services() {
                 </div>
             </div>
             <div className="service-shape1">
-                <img src="images/right-side.png" alt="Shape Images"/>
+                <img src="/images/right-side.png" alt="Shape Images"/>
             </div>
         </section>
     </>

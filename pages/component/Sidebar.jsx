@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Sidebar() {
   return (
     <>
@@ -15,8 +15,8 @@ export default function Sidebar() {
                             </button>
                             <h2 className="modal-title" id="myModalLabel2">
                                 <a href="index.html">
-                                    <img src="images/logo.png" className="modal-logo1" alt="Logo"/>
-                                    <img src="images/sticky-logo.png" className="modal-logo2" alt="Logo"/>
+                                    <img src="/images/logo.png" className="modal-logo1" alt="Logo"/>
+                                    <img src="/images/sticky-logo.png" className="modal-logo2" alt="Logo"/>
                                 </a>
                             </h2>
                         </div>

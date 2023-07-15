@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Partner() {
   return (
     <>
@@ -12,27 +12,27 @@ export default function Partner() {
                 <div className="brand-slider owl-carousel owl-theme">
                     <div className="brand-item">
                         <a href="#">
-                            <img src="images/1_2.png" alt="Brand Images"/>
+                            <img src="/images/1_2.png" alt="Brand Images"/>
                         </a>
                     </div>
                     <div className="brand-item">
                         <a href="#">
-                            <img src="images/2_2.png" alt="Brand Images"/>
+                            <img src="/images/2_2.png" alt="Brand Images"/>
                         </a>
                     </div>
                     <div className="brand-item">
                         <a href="#">
-                            <img src="images/3.png" alt="Brand Images"/>
+                            <img src="/images/3.png" alt="Brand Images"/>
                         </a>
                     </div>
                     <div className="brand-item">
                         <a href="#">
-                            <img src="images/4.png" alt="Brand Images"/>
+                            <img src="/images/4.png" alt="Brand Images"/>
                         </a>
                     </div>
                     <div className="brand-item">
                         <a href="#">
-                            <img src="images/5_2.png" alt="Brand Images"/>
+                            <img src="/images/5_2.png" alt="Brand Images"/>
                         </a>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Members() {
   return (
     <>
@@ -18,7 +18,7 @@ export default function Members() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                    <img src="images/1.jpg" alt="Member Images"/>
+                                    <img src="/images/1.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -52,7 +52,7 @@ export default function Members() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                    <img src="images/2.jpg" alt="Member Images"/>
+                                    <img src="/images/2.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -86,7 +86,7 @@ export default function Members() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                    <img src="images/3.jpg" alt="Member Images"/>
+                                    <img src="/images/3.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -120,7 +120,7 @@ export default function Members() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                <img src="images/4.jpg" alt="Member Images"/>
+                                <img src="/images/4.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -153,7 +153,7 @@ export default function Members() {
                 </div>
             </div>
             <div className="member-shape-2">
-                <img src="images/member-shape-2.png" alt="Members Images"/>
+                <img src="/images/member-shape-2.png" alt="Members Images"/>
             </div>
         </div>
     </>

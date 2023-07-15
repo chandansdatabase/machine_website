@@ -3,11 +3,11 @@ import Banner from "./component/Banner";
 // import Blogs from "./component/Blogs";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
-// import Members from "./component/Members";
+import Members from "./component/Members";
 import Clients from "./component/Clients";
 import Navbar from "./component/Navbar";
 // import Partner from "./component/Partner";
-// import Portfolio from "./component/Portfolio";
+import Portfolio from "./component/Portfolio";
 // import Price from "./component/Price";
 import Services from "./component/Services";
 // import Sidebar from "./component/Sidebar";
@@ -32,13 +32,14 @@ export default function Home() {
 
       <Banner/>
 
-      <Services/>
+      {/* <Services/> */}
 
-      <About/>
 
       {/* <Price/> */}
 
-      {/* <Portfolio/> */}
+      <Portfolio/>
+
+      <About/>
 
       {/* <Members/> */}
 

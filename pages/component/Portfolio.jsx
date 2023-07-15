@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Portfolio() {
   return (
     <>
-        <section className="portfolio-area pt-100 pb-70">
+        <section id="services" className="portfolio-area pt-100 pb-70">
             <div className="container">
                 <div className="section-title text-center">
                     <span>Our Portfolio</span>
@@ -18,7 +19,7 @@ export default function Portfolio() {
                     <div className="portfolio-item">
                         <div className="portfolio-img">
                             <a href="#portfolio">
-                                <img src="images/1_2.jpg" alt="Portfolio Images"/>
+                                <img src="/images/1_2.jpg" alt="Portfolio Images"/>
                             </a>
                             <div className="portfolio-tag">
                                 <a href="#"><span>Marketing</span></a>
@@ -34,7 +35,7 @@ export default function Portfolio() {
                     <div className="portfolio-item">
                         <div className="portfolio-img">
                             <a href="#portfolio">
-                                <img src="images/2_2.jpg" alt="Portfolio Images"/>
+                                <img src="/images/2_2.jpg" alt="Portfolio Images"/>
                             </a>
                             <div className="portfolio-tag">
                                 <a href="#"><span>Research</span></a>
@@ -50,7 +51,7 @@ export default function Portfolio() {
                     <div className="portfolio-item">
                         <div className="portfolio-img">
                             <a href="#portfolio">
-                                <img src="images/3_1.jpg" alt="Portfolio Images"/>
+                                <img src="/images/3_1.jpg" alt="Portfolio Images"/>
                             </a>
                             <div className="portfolio-tag">
                                 <a href="#"><span>Optimizing</span></a>
@@ -66,7 +67,7 @@ export default function Portfolio() {
                     <div className="portfolio-item">
                         <div className="portfolio-img">
                             <a href="#portfolio">
-                                <img src="images/4_1.jpg" alt="Portfolio Images"/>
+                                <img src="/images/4_1.jpg" alt="Portfolio Images"/>
                             </a>
                             <div className="portfolio-tag">
                                 <a href="#"><span>Marketing</span></a>
@@ -82,7 +83,7 @@ export default function Portfolio() {
                     <div className="portfolio-item">
                         <div className="portfolio-img">
                             <a href="#portfolio">
-                                <img src="images/5.jpg" alt="Portfolio Images"/>
+                                <img src="/images/5.jpg" alt="Portfolio Images"/>
                             </a>
                             <div className="portfolio-tag">
                                 <a href="#"><span>Development</span></a>
@@ -98,7 +99,7 @@ export default function Portfolio() {
                         <div className="portfolio-item">
                             <div className="portfolio-img">
                                 <a href="#portfolio">
-                                    <img src="images/6.jpg" alt="Portfolio Images"/>
+                                    <img src="/images/6.jpg" alt="Portfolio Images"/>
                                 </a>
                                 <div className="portfolio-tag">
                                     <a href="#"><span>Development</span></a>

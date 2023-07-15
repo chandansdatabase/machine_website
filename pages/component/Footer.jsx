@@ -1,21 +1,21 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import { useState} from 'react'
-
+import Image from 'next/image'
 export default function Footer() {
     const [redHeart, changeOfHeart] = useState(false)
   return (
     <>
-    {/* <script src="/js/jquery.min.js"></script> */}
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    {/* <script src="/js/contact-form-script.js"></script> */}
-    {/* <script src="/js/custom.js"></script> */}
-    {/* <script src="/js/email-decode.min.js"></script> */}
-    {/* <script src="/js/form-validator.min.js"></script> */}
-    {/* <script src="/js/jquery.ajaxchimp.min.js"></script> */}
-    {/* <script src="/js/jquery.magnific-popup.min.js"></script> */}
-    {/* <script src="/js/meanmenu.min.js"></script> */}
-    {/* <script src="/js/owl.carousel.min.js"></script> */}
-    {/* <script src="/js/wow.min.js"></script> */}
+    {/* <script src="//js/jquery.min.js"></script> */}
+    <script src="//js/bootstrap.bundle.min.js"></script>
+    {/* <script src="//js/contact-form-script.js"></script> */}
+    {/* <script src="//js/custom.js"></script> */}
+    {/* <script src="//js/email-decode.min.js"></script> */}
+    {/* <script src="//js/form-validator.min.js"></script> */}
+    {/* <script src="//js/jquery.ajaxchimp.min.js"></script> */}
+    {/* <script src="//js/jquery.magnific-popup.min.js"></script> */}
+    {/* <script src="//js/meanmenu.min.js"></script> */}
+    {/* <script src="//js/owl.carousel.min.js"></script> */}
+    {/* <script src="//js/wow.min.js"></script> */}
         <footer id="footer" className="footer-area-bg">
             {/* <div className="footer-area-top pt-100 pb-70">
                 <div className="container">
@@ -24,7 +24,7 @@ export default function Footer() {
                             <div className="footer-single">
                                 <div className="footer-single-content">
                                     <a href="index.html">
-                                        <img src="images/footer-logo.png" alt="Logo"/>
+                                        <img src="/images/footer-logo.png" alt="Logo"/>
                                     </a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur convallis arcu, id dapibus nulla tincidunt.</p>
                                 </div>

@@ -8,7 +8,7 @@ export default function Contact() {
                     <div className="section-title text-center">
                         <span>Contact</span>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-3'>
                                 <h3>Address</h3>
                                 <p style={{ paddingTop: 0 }}>
                                     Madan Trading Company
@@ -16,7 +16,15 @@ export default function Contact() {
                                     E Block, Durgachak Haldia-721602
                                 </p>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-3'>
+                                <h3>Branches</h3>
+                                <p style={{ paddingTop: 0 }}>
+                                    Delhi
+                                    <br />
+                                    Kolkata
+                                </p>
+                            </div>
+                            <div className='col-md-3'>
                                 <h3>Email</h3>
                                 <p style={{ paddingTop: 0 }}>
                                     <a style={{ color: "#75799b" }} href="mailto:sales@mtchaldia.com" target="_blank" rel="noreferrer">sales@mtchaldia.com</a>
@@ -24,7 +32,7 @@ export default function Contact() {
                                     <a style={{ color: "#75799b" }} href="mailto:suraj.g@mtchaldia.com" target="_blank" rel="noreferrer">suraj.g@mtchaldia.com</a>
                                 </p>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-3'>
                                 <h3>Mobile</h3>
                                 <p style={{ paddingTop: 0 }}>
                                     <a style={{ color: "#75799b" }} href="tel:+91-94340-42550" target="_blank" rel="noreferrer">+91 94340 42550</a>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Testimonial() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function Testimonial() {
                 <div className="client-slider owl-carousel owl-theme">
                     <div className="client-item">
                         <div className="client-item-img">
-                            <img src="images/t1.png" alt="Testimonial Images"/>
+                            <img src="/images/t1.png" alt="Testimonial Images"/>
                         </div>
                         <h3>John Doe</h3>
                         <p>
@@ -26,7 +26,7 @@ export default function Testimonial() {
                     </div>
                     <div className="client-item">
                         <div className="client-item-img">
-                            <img src="images/t4.png" alt="Testimonial Images"/>
+                            <img src="/images/t4.png" alt="Testimonial Images"/>
                         </div>
                         <h3>Knot Doe</h3>
                         <p>
@@ -36,7 +36,7 @@ export default function Testimonial() {
                     </div>
                     <div className="client-item">
                         <div className="client-item-img">
-                            <img src="images/t5.png" alt="Testimonial Images"/>
+                            <img src="/images/t5.png" alt="Testimonial Images"/>
                         </div>
                         <h3>John Smith</h3>
                         <p>
@@ -46,7 +46,7 @@ export default function Testimonial() {
                     </div>
                     <div className="client-item">
                         <div className="client-item-img">
-                            <img src="images/t3.png" alt="Testimonial Images"/>
+                            <img src="/images/t3.png" alt="Testimonial Images"/>
                         </div>
                         <h3>Evanaa</h3>
                         <p>

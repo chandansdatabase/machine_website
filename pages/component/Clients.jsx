@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const dataCenter = [
     {
         companyName: 'Nxtra Airtel',
@@ -121,7 +121,7 @@ export default function Clients() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                    <img height={"240px"} style={{objectFit:"none"}} src="https://www.ril.com/App_Themes/RIL/images/generic/RIL_Logo.png" alt="Member Images"/>
+                                    <img height={"240px"} style={{objectFit:"none"}} src="/https://www.ril.com/App_Themes/RIL/images/generic/RIL_Logo.png" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -155,7 +155,7 @@ export default function Clients() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                    <img src="images/3.jpg" alt="Member Images"/>
+                                    <img src="/images/3.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -189,7 +189,7 @@ export default function Clients() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                <img src="images/4.jpg" alt="Member Images"/>
+                                <img src="/images/4.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -223,7 +223,7 @@ export default function Clients() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                <img src="images/4.jpg" alt="Member Images"/>
+                                <img src="/images/4.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -257,7 +257,7 @@ export default function Clients() {
                         <div className="member-card">
                             <div className="member-img">
                                 <a href="#members">
-                                <img src="images/4.jpg" alt="Member Images"/>
+                                <img src="/images/4.jpg" alt="Member Images"/>
                                 </a>
                                 <div className="member-content">
                                     <a href="#members">
@@ -330,7 +330,7 @@ export default function Clients() {
                     </div>
                 </div>
                 {/* <div className="member-shape-2">
-                <img src="images/member-shape-2.png" alt="Members Images"/>
+                <img src="/images/member-shape-2.png" alt="Members Images"/>
             </div> */}
             </div>
         </>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Blogs() {
   return (
     <>
@@ -18,7 +18,7 @@ export default function Blogs() {
                         <div className="blog-card">
                             <div className="blog-img">
                                 <a href="#blog-details">
-                                <img src="images/1_1.jpg" alt="Blog Images"/>
+                                <img src="/images/1_1.jpg" alt="Blog Images"/>
                                 </a>
                             </div>
                             <div className="blog-content">
@@ -36,7 +36,7 @@ export default function Blogs() {
                         <div className="blog-card">
                             <div className="blog-img">
                                 <a href="#blog-details">
-                                <img src="images/2_1.jpg" alt="Blog Images"/>
+                                <img src="/images/2_1.jpg" alt="Blog Images"/>
                                 </a>
                             </div>
                             <div className="blog-content">
@@ -54,7 +54,7 @@ export default function Blogs() {
                         <div className="blog-card">
                             <div className="blog-img">
                                 <a href="#blog-details">
-                                <img src="images/3_2.jpg" alt="Blog Images"/>
+                                <img src="/images/3_2.jpg" alt="Blog Images"/>
                                 </a>
                             </div>
                             <div className="blog-content">

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function About() {
     return (
         <>
@@ -8,7 +8,7 @@ export default function About() {
                     <div className="row align-items-center">
                         <div className="col-lg-5 col-xxl-6">
                             <div className="about-img about-ml">
-                                <img src="images/about.png" alt="About Images" />
+                                <img src="/images/about.png" alt="About Images" />
                             </div>
                         </div>
                         <div className="col-lg-7 col-xxl-6">

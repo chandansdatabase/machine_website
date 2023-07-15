@@ -1,13 +1,13 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Navbar() {
   return (
     <>
         <div className="navbar-area">
             <div className="mobile-nav">
                 <a href="#" className="logo">
-                    <img src="images/logo.png" className="logo-one" alt="Logo"/>
-                    <img src="images/sticky-logo.png" className="logo-two" alt="Logo"/>
+                    <Image width="100%" height="100%" layout="responsive" objectFit="contain" src="/images/logo.png" className="logo-one" alt="Logo"/>
+                    <Image width="100%" height="100%" layout="responsive" objectFit="contain" src="/images/sticky-logo.png" className="logo-two" alt="Logo"/>
                 </a>
             </div>
 
@@ -15,10 +15,10 @@ export default function Navbar() {
                 <div className="container">
                     <nav className="navbar navbar-expand-md navbar-light ">
                         <a className="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="Logo"/>
+                            <img src="/images/logo.png" alt="Logo"/>
                         </a>
                         <a className="navbar-brand-sticky" href="#">
-                            <img src="images/sticky-logo.png" alt="Logo"/>
+                            <Image width="100%" height="100%" layout="responsive" objectFit="contain" src="/images/sticky-logo.png" alt="Logo"/>
                         </a>
                         <div className="collapse navbar-collapse mean-menu d-flex justify-content-end" id="navbarSupportedContent">
                             <ul className="navbar-nav">
